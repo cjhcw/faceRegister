@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--<com.example.face.SimpleToolbar-->
+        <!--android:id="@+id/simple_toolbar"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="?attr/colorPrimaryDark"-->
+        <!--android:fitsSystemWindows="true"-->
+        <!--android:minHeight="?attr/actionBarSize"-->
+        <!--app:contentInsetLeft="0dp"-->
+        <!--app:contentInsetStart="0dp">-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/txt_main_title"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:singleLine="true"-->
+            <!--android:text="添加访客"-->
+            <!--android:textColor="@android:color/white"-->
+            <!--android:textSize="20sp"-->
+            <!--android:visibility="visible" />-->
+
+    <!--</com.example.face.SimpleToolbar>-->
+
+    <ImageView
+        android:id="@+id/Face_photo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:src="@mipmap/ic_launcher" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/AddFace"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="添加人脸" />
+
+        <Button
+            android:id="@+id/WaiveAddFace"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="放弃添加" />
+    </LinearLayout>
+
+
+</LinearLayout>
